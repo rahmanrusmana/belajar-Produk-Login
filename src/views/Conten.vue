@@ -4,7 +4,7 @@
   <div class="mx-auto grid max-w-screen-lg justify-center px-4 sm:grid-cols-2 sm:gap-4 sm:px-8 md:grid-cols-4">
     
     <article class="mx-auto my-4 flex w-full flex-col overflow-hidden border border-gray-300 bg-white text-gray-900 transition hover:translate-y-2 hover:shadow-lg">
-      <a href="#">
+      <a href="/detail">
         <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/cc0a35b0-b3b8-427c-bf2c-334e0c4beeca/sb-logo-skate-t-shirt-LBBxZV.png" class="h-56 w-full object-cover" alt="" />
         <div class="flex-auto px-6 py-5">
           <h3 class="mt-4 mb-3 text-lg xl:text-2xl text-red-600">Bestseller</h3>
@@ -16,7 +16,7 @@
     </article>
 
     <article class="mx-auto my-4 flex w-full flex-col overflow-hidden border border-gray-300 bg-white text-gray-900 transition hover:translate-y-2 hover:shadow-lg">
-      <a href="#">
+      <a href="/detail">
         <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/bb96c08d-a9f6-4ac2-80fc-24ccb9dfecff/nikecourt-dri-fit-victory-23cm-tennis-shorts-VcGQd1.png" class="h-56 w-full object-cover" alt="" />
         <div class="flex-auto px-6 py-5">
           <h3 class="mt-4 mb-3 text-lg font-semibold xl:text-2xl">NikeCourt Dri-FIT Victory</h3>

@@ -1,24 +1,4 @@
 <script setup>
-import { Carousel } from 'flowbite-vue'
-const pictures = [
-  {
-    'src': 'https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_911,c_limit/61409afd-bb00-4452-b5fb-b784b6a682a3/nike-just-do-it.jpg',
-    'alt': 'Picture 1',
-  },
-  {
-    'src': 'https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_911,c_limit/71dc8fc1-97c2-493c-bdaa-8d46f51ff85e/nike-just-do-it.jpg',
-    'alt': 'Picture 2',
-  },
-  {
-    'src': 'https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_911,c_limit/b3e44fd7-df8f-449a-a2c7-48bb948518ab/nike-just-do-it.png',
-    'alt': 'Picture 3',
-  },
-  {
-    'src': 'https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_911,c_limit/efc21be6-ab7a-44d0-9e03-09755bc6133a/nike-just-do-it.jpg',
-    'alt': 'Picture 4',
-  }
-]
-
 const products = [
     {
       id: 1,
@@ -61,9 +41,25 @@ const products = [
   ]
 </script>
 <template>
-  <Carousel :pictures="pictures"></Carousel>
-
   <div class="bg-white">
+    <div class="w-full bg-cover bg-center" style="height:32rem; background-image: url(https://images.unsplash.com/photo-1504384308090-c894fdcc538d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80);">
+        <div class="flex items-center justify-left h-full w-full bg-gray-900 bg-opacity-50">
+            <div class="">
+                <h1 class="text-white text-2xl font-extrabold uppercase md:text-3xl ml-10">INDEPENDENCE DAY<br>EXTRA 17% OFF</h1>
+                <p class="text-white text-base font-semibold uppercase md:text-base ml-10">Deals not to be missed! Get moving before your favorites are gone</p>
+
+                <a href="/Conten" class="ml-10 mt-3 relative inline-flex items-center px-12 py-2 overflow-hidden text-lg font-medium text-white border-2 border-white-600 rounded-full hover:text-black group hover:bg-gray-50">
+                  <span class="absolute left-0 block w-full h-0 transition-all bg-white opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+                  <span class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                  </span>
+                  <span class="relative">Start Shopping</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="">
       <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
         <h2 class="text-2xl font-bold tracking-tight text-gray-900">Easy Everyday Essentials</h2>
   
@@ -88,6 +84,8 @@ const products = [
         </div>
       </div>
     </div>
+
+  </div>
 </template>
 
 

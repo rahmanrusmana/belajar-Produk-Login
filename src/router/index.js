@@ -3,8 +3,18 @@ import Home from "../views/Home.vue";
 import Login from "../views/Login.vue";
 import Register from "../views/Register.vue"
 import Conten from "../views/conten.vue"
+import SingleProduk from "../views/SingleProduk.vue"
+import Cart from "../views/Cart.vue"
+import Checkout from "../views/Checkout.vue"
+import Contact from "../views/Contact.vue"
+import Navbar from "../components/Navbar.vue"
 
 const routes = [
+    {
+        path: "/navbar",
+        name: "Navbar",
+        component:Navbar,
+    },
     {
         path: "/",
         name: "Home",
@@ -24,6 +34,26 @@ const routes = [
         path: "/register",
         name: "Register",
         component: Register
+    },
+    {
+        path: "/detail",
+        name: "SingleProduk",
+        component: SingleProduk
+    },
+    {
+        path: "/cart",
+        name: "Cart",
+        component: Cart
+    },
+    {
+        path: "/checkout",
+        name: "Checkout",
+        component: Checkout
+    },
+    {
+        path: "/contact",
+        name: "Contact",
+        component: Contact
     }
 ];
 
